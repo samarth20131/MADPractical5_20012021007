@@ -4,6 +4,7 @@ import android.app.Service
 import android.content.Intent
 import android.media.MediaPlayer
 import android.os.IBinder
+import com.example.madpractical5_20012021007.R
 
 class MyService : Service() {
 
@@ -21,7 +22,7 @@ class MyService : Service() {
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
 
         if(!this::player.isInitialized){
-            player=MediaPlayer.create(this,R.raw.song)
+            player=MediaPlayer.create(this, R.raw.song)
         }
 
         if(intent!=null){
