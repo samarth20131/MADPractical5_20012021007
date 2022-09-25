@@ -1,4 +1,4 @@
-package com.example.madpratical5_20012021007
+package com.example.madpractical5_20012021007
 
 import org.junit.Test
 
