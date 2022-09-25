@@ -13,13 +13,13 @@
         android:theme="@style/Theme.MADPractical5_20012021007"
         tools:targetApi="31">
         <service
-            android:name="com.example.madpratical5_20012021007.MyService"
+            android:name="com.example.madpractical5_20012021007.MyService"
             android:enabled="true"
             android:exported="true">
         </service>
 
         <activity
-            android:name="com.example.madpratical5_20012021007.MainActivity"
+            android:name="com.example.madpractical5_20012021007.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
