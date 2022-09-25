@@ -1,4 +1,4 @@
 # MADPractical5_20012021007
 
-![play](https://user-images.githubusercontent.com/110403688/192157855-440eb3d5-6e72-45a2-923f-67bfc5a8d680.jpg)
-![pause](https://user-images.githubusercontent.com/110403688/192157867-03e6beef-71f3-41e2-8822-7ccaf3dfdf67.jpg)
+![play](https://user-images.githubusercontent.com/110403688/192157921-46b6ad5f-901d-49a3-ace5-bced825fefcd.jpg)
+![pause](https://user-images.githubusercontent.com/110403688/192157927-5c1ffac2-7c10-4c49-a781-a1701f6d3197.jpg)
