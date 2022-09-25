@@ -36,20 +36,14 @@ class MyService : Service() {
                 }
             }
         }
-
         else{
             player.start()
         }
-
-
         return START_STICKY
     }
 
     override fun onDestroy() {
-
         player.stop()
-
         super.onDestroy()
     }
-
 }

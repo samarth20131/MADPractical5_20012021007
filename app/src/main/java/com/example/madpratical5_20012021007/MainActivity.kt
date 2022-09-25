@@ -12,20 +12,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-
 //    using explicit Intent we start/stop service
-
     fun play(view: View){
         Intent(applicationContext,MyService::class.java)
             .putExtra(MyService.DATA_KEY,MyService.DATA_VALUE)
             .apply { startService(this) }
-        Toast.makeText(this, "button is clicked", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Play is clicked", Toast.LENGTH_LONG).show()
     }
 
     fun stop(view:View){
-
         Intent(applicationContext,MyService::class.java)
             .apply { stopService(this) }
-        Toast.makeText(this, "button is clicked", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Pause is clicked", Toast.LENGTH_LONG).show()
     }
 }

@@ -16,7 +16,6 @@
             android:name="com.example.madpratical5_20012021007.MyService"
             android:enabled="true"
             android:exported="true">
-
         </service>
 
         <activity
